@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="clock">
+        <h3 id="year"></h3>
+        <p id="time"></p>
+    </div>
+
+    <div class="LoginBox">
+        <h1 id="login">Login</h1>
+        <form action="#" id="loginForm">
+            <input type="text" name="nickname" minlength="4" required placeholder="Write your nickname">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <div class="todoBox">
+        <h2>Todo List</h2>
+        <form action="#" id="todoForm">
+            <input type="text" name="todo" required minlength="2" placeholder="Write your TodoList">
+        </form>
+        <ul id="todoList">
+        </ul>
+    </div>
+    <div class="quotes">
+        <h2 id="quote"></h2>
+        <p id="writer"></p>
+    </div>
+    
+    <div id="weather">
+    </div>
+
+    <script src="js/loginTodo.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+</body>
+</html>
